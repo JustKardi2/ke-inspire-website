@@ -1,0 +1,189 @@
+body {
+    background-color: #010736;
+    background-image: radial-gradient(#0213b3 2px, transparent 2px);
+    background-size: 60px 60px;
+    background-position: 0 0, 20px 20px;
+    box-shadow: 0 0 20px 100px #010736 inset;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+.header {
+    width: 100%;
+    height: 15vh;
+    background-color: #020a4d;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    color: #78c7fc;
+    font-weight: bold;
+    font-size: 1.8vw;
+    position: fixed;
+    z-index: 100000;
+}
+.header--text__span {
+    color: #ffae52;
+    text-shadow: 0 0 50px #ffae52;
+}
+.header--link {
+    font-weight: normal;
+    transition: all 0.5s;
+    position: relative;
+    text-decoration: none;
+}
+.header--link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: #ffae52;
+    transition: width 0.3s ease-in-out;
+}
+.header--link:hover {
+    text-shadow: 0px 0px 40px #ffae52;
+    cursor: pointer;
+    color: #ffae52;
+}
+.header--link:hover::after {
+    width: 100%;
+}
+.section-one {
+    width: 100%;
+    height: 100vh;
+    box-shadow: 0 0 200px 200px #010736 inset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-one--autotyper {
+    color: #ffae52;
+    font-family: "Poppins", sans-serif;
+    font-size: 7vw;
+}
+.section-one__span {
+    color: #78c7fc;
+    text-shadow: 0 0 150px #78c7fc;
+}
+.sectionOneAutotyperAutotyper {
+    text-shadow: 0 0 75px #ffae52;
+}
+.section-two {
+    width: 100%;
+    height: 100vh;
+    box-shadow: 0 0 200px 200px #010736 inset;
+
+}
+.section-two--title {
+    color: #78c7fc;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 5vw;
+    text-shadow: 0 0 100px #78c7fc;
+}
+.section-two--title__span {
+    color: #ffae52;
+    text-shadow: 0 0 100px #ffae52;
+}
+.section-two--container {
+    width: 100%;
+    height: 40vh;
+    position: relative;
+    top: 7vh;
+    display: flex;
+    justify-content: space-around;
+}
+.section-two--container__card {
+    width: 15vw;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #020a4d;
+    font-family: "Poppins", sans-serif;
+    font-size: 1vw;
+    border-radius: 20px;
+    color: #78c7fc;
+    border: 2px solid #78c7fc;
+    transition: all 0.5s;
+}
+.section-two--container__card:hover {
+    transform: translateY(-10px) rotate(10deg);
+    color: #ffae52;
+    border: 2px solid #ffae52;
+    box-shadow: 0 0 400px 10px #ffae52;
+}
+.section-three {
+    width: 100%;
+    height: 100vh;
+    box-shadow: 0 0 200px 200px #010736 inset;
+}
+.section-three--title {
+    font-size: 5vw;
+    font-family: "Poppins", sans-serif;
+    color: #78c7fc;
+    text-align: center;
+    text-shadow: 0 0 100px #78c7fc;
+}
+.section-three--title__span {
+    color: #ffae52;
+    text-shadow: 0 0 100px #ffae52;
+}
+.section-three--text {
+    color: #78c7fc;
+    font-family: "Poppins", sans-serif;
+    font-size: 2.5vw;
+    width: 70%;
+    text-align: center;
+}
+.section-three--div {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 14vh;
+}
+.section-three--text__span {
+    color: #ffae52;
+    font-weight: bold;
+    text-shadow: 0 0 75px #ffae52;
+}
+.section-four {
+    width: 100%;
+    height: 100vh;
+    box-shadow: 0 0 200px 200px #010736 inset;
+}
+.section-four--title {
+    color: #78c7fc;
+    font-size: 5vw;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    text-shadow: 0 0 100px #78c7fc;
+}
+.section-four--title__span {
+    color: #ffae52;
+    text-shadow: 0 0 100px #ffae52;
+}
+.section-four--text {
+    color: #78c7fc;
+    font-family: "Poppins", sans-serif;
+    font-size: 2vw;
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-four--icon {
+    margin-right: 10px;
+    color: #ffae52;
+    text-shadow: 0 0 50px #ffae52;
+}
